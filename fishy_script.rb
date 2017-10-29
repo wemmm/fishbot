@@ -9,10 +9,7 @@ class FishyWheelz
   end
 
   def fish_me
-    puts "#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}"
+    "#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}"
   end
 
 end
-
-example = FishyWheelz.new
-example.fish_me
