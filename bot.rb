@@ -1,4 +1,5 @@
 require 'Twitter'
+require_relative 'fishy_script.rb'
 
 client = Twitter::REST::Client.new do |config|
   config.consumer_key        = ""
@@ -8,3 +9,5 @@ client = Twitter::REST::Client.new do |config|
 end
 
 client.update("hello world")
+
+FishyWheelz.new

@@ -8,24 +8,11 @@ class FishyWheelz
     @payment = ["silver dollars", "pistachio shells", "click clacks", "daddy's smiles", "jingle jangles", "cents", "watermellas"]
   end
 
-  def fish_me(number)
-    number.times do | x |
-      x = puts "#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}"
-    end
+  def fish_me
+    puts "#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}"
   end
 
 end
 
-puts "The fishy wheelz??! How many? !"
-answer = gets.chomp.to_i
-
-if answer != 0
-
-  fishywheel = FishyWheelz.new
-  fishywheel.fish_me(answer)
-
-else
-
-  puts "n0 fishywheelz??!!! PUT aNSWERR BETTER!!!!!!"
-
-end
+example = FishyWheelz.new
+example.fish_me
