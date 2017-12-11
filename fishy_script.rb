@@ -9,7 +9,7 @@ class FishyWheelz
   end
 
   def fish_me
-    ["#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}", "#{@fish.sample.upcase} #{@products.sample}? We got those!!! They're #{@adjectives.sample}!!! give me  #{rand(11) + 2} #{@payment.sample} and it is yours now my friend"].sample
+    ["#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}", "#{@fish.sample.upcase} #{@products.sample}? We got those!!! They're #{@adjectives.sample}!!! give me  #{rand(11) + 2} #{@payment.sample} and it is yours now my friend", "#{@products.sample.upcase}?!?!?!! but #{@fish.sample} flavour?? It's true and it's #{rand(11) + 2} #{@payment.sample} amd it's #{@adjectives.sample}"].sample
   end
 
 end
