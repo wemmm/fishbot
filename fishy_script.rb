@@ -9,7 +9,7 @@ class FishyWheelz
   end
 
   def fish_me
-    ["#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}", "#{@fish.sample.upcase} #{@products.sample}? We got those!!! They're #{@adjectives.sample}!!! give me  #{rand(11) + 2} #{@payment.sample} and it is yours now my friend", "#{@products.sample.upcase}?!?!?!! but #{@fish.sample} flavour?? It's true and it's #{rand(11) + 2} #{@payment.sample} amd it's #{@adjectives.sample}", "#{rand(11) + 2} #{@payment.sample} 4 a #{@adjectives.sample} #{@adjectives.sample} m u l t i p a ck of #{rand(21) + 2} #{@products.sample}s!!!!!!"].sample
+    ["#{@adjectives.sample.upcase} #{@fish.sample} #{@products.sample} is on s ale now for just #{rand(11) + 2} #{@payment.sample}", "#{@fish.sample.upcase} #{@products.sample}? We got those!!! They're #{@adjectives.sample}!!! give me  #{rand(11) + 2} #{@payment.sample} and it is yours now my friend", "#{@products.sample.upcase}?!?!?!! but #{@fish.sample} flavour?? It's true and it's #{rand(11) + 2} #{@payment.sample} amd it's #{@adjectives.sample}", "#{rand(11) + 2} #{@payment.sample} 4 a #{@adjectives.sample} #{@adjectives.sample} m u l t i p a ck of #{rand(21) + 2} #{@products.sample}s!!!!!!", "#{@adjectives.sample.upcase} HOT DEAL! Grab all ya #{@payment.samples} and jingle on down for CHEEP #{@adjectives.sample} #{@products.sample}!1!!"].sample
   end
 
 end
