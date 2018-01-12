@@ -19,16 +19,22 @@ o   o
 
 # What?
 
-This is entirely based on [elliewem's](https://github.com/elliewem) [Fishy Wheelz generator](https://github.com/elliewem/fishy_wheelz), which is a CLI for generating dynamic new ideas for Fishy Wheelz.
+A beautiful collaborative work based on [elliewem's](https://github.com/elliewem) [Fishy Wheelz generator](https://github.com/elliewem/fishy_wheelz), which is a CLI for generating dynamic new ideas for Fishy Wheelz.
 
-Currently working on scheduling tweets because I do still have to run this on the command line to get it to do anything.
+# Next?
+
+Setting this up with Automator so that we don't have to manually run this to tweet, and the world can enjoy a fresh new fishy product every single day.
 
 # Why?
 
-CLIs are nice but this will hopefully take all the hard work out of ever actually having to use one. Also the world can now enjoy cutting edge fish products.
+Who needs a marketing department when all of your products are randomly generated?
+
+# Featuring the talents of:
+* [Ellie Wem](https://github.com/elliewem)
+* [Jenny Wem](https://github.com/wemmm)
 
 # Tech
 
 * Ruby
 * Twitter API
-* Fishy Wheelz Generator
+* [The incomparable Fishy Wheelz Generator](https://github.com/elliewem/fishy_wheelz)
